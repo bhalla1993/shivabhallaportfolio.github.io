@@ -5,16 +5,16 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Shiva Bhalla Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Shiva Bhalla | Senior Backend Engineer & Microservices Architect</title>
+  <meta content="Senior Backend Engineer, Microservices Architect, API Design, Cloud-Native Development" name="description">
+  <meta content="backend engineer, microservices, java, spring boot, kubernetes, api design, cloud architecture" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.jpeg" rel="icon">
   <link href="assets/img/apple-touch-icon.jpeg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -23,6 +23,9 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Typed.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -38,24 +41,25 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="Shiva Bhalla" class="img-fluid rounded-circle">
         <h1 class="text-light justify-content-center"><a href="index.html">Shiva Bhalla</a></h1>
+        <p class="profile-subtitle">Senior Backend Engineer & Microservices Architect</p>
         <div class="social-links mt-3 text-center">
-         <a href="https://twitter.com/bhalla93" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.facebook.com/preet.love.5059" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://github.com/bhalla1993" class="github"><i class="bi bi-github"></i></a> 
-          <a href="skype:shiva.bhalla_1?call" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="https://www.linkedin.com/in/shiva-bhalla-1b3253102" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/bhalla1993" class="github" title="GitHub"><i class="bi bi-github"></i></a> 
+          <a href="https://www.linkedin.com/in/shiva-bhalla-1b3253102" class="linkedin" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          <a href="mailto:shiva.bhalla@gmail.com" class="email" title="Email"><i class="bx bxl-gmail"></i></a>
         </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#facts" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Interests</span></a></li>
-          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+          <li><a href="#professional-summary" class="nav-link scrollto"><i class="bx bx-briefcase"></i> <span>Summary</span></a></li>
+          <li><a href="#tech-stack" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Tech Stack</span></a></li>
+          <li><a href="#leadership" class="nav-link scrollto"><i class="bx bx-star"></i> <span>Leadership</span></a></li>
+          <li><a href="#case-studies" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Case Studies</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-code-alt"></i> <span>Projects</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -70,185 +74,317 @@
     </div>
   </section><!-- End Hero -->
 
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+  <main id="main"><!-- ======= Professional Summary Section ======= --><section id="professional-summary" class="professional-summary">
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>Experienced Java Developer with strong technical skills, creativity, determination and detail-oriented abilities that can be utilized in analyzing and developing IT solutions.</p>
+          <h2>Professional Summary</h2>
         </div>
-        <div class="row">
+
+        <div class="row align-items-center">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profile-img.jpg" class="img-fluid rounded" alt="Shiva Bhalla">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Consultant Application Development</h3>
-            <p class="fst-italic">
-              Almost 10 years of software development experience in Java programming
+          <div class="col-lg-8" data-aos="fade-left">
+            <h3>Senior Backend Engineer & Technical Leader</h3>
+            <p>
+              Experienced senior backend engineer with <strong>10+ years of software development</strong> and <strong>4+ years in senior/leadership roles</strong>. 
+              Specialized in designing and building scalable microservices architectures, secure APIs, and cloud-native systems. 
+              Proven track record of shipping production-grade features, mentoring engineering teams, and driving architectural improvements across enterprise platforms.
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>18 Jan 1993</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span> <a href="https://bhalla1993.github.io/shivabhallaportfolio.github.io" class="stretched-link">Portfolio</a> </span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+1 (437) 987-8669</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Toronto, Canada</span></li>
-                </ul>
+
+            <div class="summary-highlights">
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <strong>Senior Backend/API Developer</strong> – 10+ years experience</li>
+                <li><i class="bi bi-check-circle"></i> <strong>Microservices Architect</strong> – Owned 10+ production microservices</li>
+                <li><i class="bi bi-check-circle"></i> <strong>Technical Leader</strong> – Led 4–6 developers, mentored junior engineers</li>
+                <li><i class="bi bi-check-circle"></i> <strong>Production Excellence</strong> – Reduced incidents, strengthened stability & governance</li>
+                <li><i class="bi bi-check-circle"></i> <strong>Cloud-Native Expert</strong> – Kubernetes, Docker, AWS, Azure</li>
+                <li><i class="bi bi-check-circle"></i> <strong>Enterprise Integration</strong> – OAuth2.0, Interac, Secure API Design</li>
+              </ul>
+            </div>
+
+            <div class="summary-info mt-4">
+              <div class="info-row">
+                <strong>Current Role:</strong> Consultant Application Developer, CIBC
               </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Current Employer:</strong> <span>CIBC</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Major:</strong> <span>Post Graduation Diploma</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>shiva.bhalla@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
+              <div class="info-row">
+                <strong>Location:</strong> Oshawa, Ontario, Canada
+              </div>
+              <div class="info-row">
+                <strong>Email:</strong> <a href="mailto:shiva.bhalla@gmail.com">shiva.bhalla@gmail.com</a>
+              </div>
+              <div class="info-row">
+                <strong>Phone:</strong> +1 (437) 987-8669
               </div>
             </div>
-            <p>
-              In charge of various Java tasks across the software development process, including planning, creating, and testing. The primary goal is to design software solutions for user information by building, integrating, and up keeping Java-based components and interfaces.
-            </p>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Professional Summary Section -->
 
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
+    <!-- ======= Tech Stack Section ======= -->
+    <section id="tech-stack" class="tech-stack section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Interests</h2>
-          <p>
-            Driven by curiosity, creativity, and a passion for staying active!
-          </p>
+          <h2>Tech Stack & Expertise</h2>
+          <p>Modern backend, cloud, and DevOps technologies</p>
         </div>
 
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-code"></i>
-              <!--<span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span> -->
-              <p><strong>Coding</strong></p>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            
+            <div class="tech-category mb-5">
+              <h4 class="tech-category-title"><i class="bi bi-code-square"></i> Languages & Frameworks</h4>
+              <div class="tech-badges">
+                <span class="tech-badge">Java (8–21)</span>
+                <span class="tech-badge">Spring Boot</span>
+                <span class="tech-badge">Spring Cloud</span>
+                <span class="tech-badge">Spring Security</span>
+                <span class="tech-badge">REST APIs</span>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-controller"></i>
-              <!--<span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span> -->
-              <p><strong>Playing Games</strong></p>
+            <div class="tech-category mb-5">
+              <h4 class="tech-category-title"><i class="bi bi-building"></i> Architecture & Design</h4>
+              <div class="tech-badges">
+                <span class="tech-badge">Microservices</span>
+                <span class="tech-badge">API Design & Versioning</span>
+                <span class="tech-badge">Distributed Systems</span>
+                <span class="tech-badge">OAuth2.0 / OPA</span>
+                <span class="tech-badge">JWT</span>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <!--<span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span> -->
-              <p><strong>Listening Music</strong></p>
+            <div class="tech-category mb-5">
+              <h4 class="tech-category-title"><i class="bi bi-cloud"></i> Cloud & Container Orchestration</h4>
+              <div class="tech-badges">
+                <span class="tech-badge">Docker</span>
+                <span class="tech-badge">Kubernetes</span>
+                <span class="tech-badge">OpenShift</span>
+                <span class="tech-badge">AWS</span>
+                <span class="tech-badge">Azure</span>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-activity"></i>
-              <!--<span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span> -->
-              <p><strong>Fitness Activities</strong></p>
+            <div class="tech-category mb-5">
+              <h4 class="tech-category-title"><i class="bi bi-gear"></i> DevOps & CI/CD</h4>
+              <div class="tech-badges">
+                <span class="tech-badge">Jenkins</span>
+                <span class="tech-badge">Git / GitHub / GitFlow</span>
+                <span class="tech-badge">CI/CD Pipelines</span>
+                <span class="tech-badge">DevOps</span>
+                <span class="tech-badge">DevSecOps</span>
+              </div>
             </div>
-          </div>
 
+            <div class="tech-category mb-5">
+              <h4 class="tech-category-title"><i class="bi bi-database"></i> Data & Messaging</h4>
+              <div class="tech-badges">
+                <span class="tech-badge">SQL (Oracle, PostgreSQL)</span>
+                <span class="tech-badge">NoSQL (MongoDB)</span>
+                <span class="tech-badge">Kafka</span>
+                <span class="tech-badge">RabbitMQ</span>
+              </div>
+            </div>
+
+            <div class="tech-category mb-5">
+              <h4 class="tech-category-title"><i class="bi bi-eye"></i> Observability & Monitoring</h4>
+              <div class="tech-badges">
+                <span class="tech-badge">Splunk</span>
+                <span class="tech-badge">Prometheus</span>
+                <span class="tech-badge">Grafana</span>
+                <span class="tech-badge">Logging & Metrics</span>
+              </div>
+            </div>
+
+            <div class="tech-category">
+              <h4 class="tech-category-title"><i class="bi bi-check2-square"></i> Testing & Quality</h4>
+              <div class="tech-badges">
+                <span class="tech-badge">JUnit</span>
+                <span class="tech-badge">Mockito</span>
+                <span class="tech-badge">REST Assured</span>
+                <span class="tech-badge">Integration Testing</span>
+              </div>
+            </div>
+
+          </div>
         </div>
 
       </div>
-    </section> 
+    </section><!-- End Tech Stack Section --> 
     
     <!-- End Facts Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <!-- ======= Leadership & Mentoring Section ======= -->
+    <section id="leadership" class="leadership">
       <div class="container">
 
         <div class="section-title">
-          <h2>Skills</h2>
-          <p>
-            Hands on experience in developing Web applications using different technologies. Highly skilled in understanding the workings of the development process and in moving between different environments where the code is executed.
-          </p>
+          <h2>Leadership & Mentoring</h2>
+          <p>Proven experience leading engineering teams and driving technical excellence</p>
         </div>
 
-        <div class="row skills-content">
-
+        <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">Java <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="leadership-card">
+              <div class="leadership-icon">
+                <i class="bi bi-people-fill"></i>
               </div>
+              <h4>Team Leadership</h4>
+              <ul class="leadership-list">
+                <li><i class="bi bi-check"></i> Led and mentored 4–6 developers</li>
+                <li><i class="bi bi-check"></i> Established coding standards & best practices</li>
+                <li><i class="bi bi-check"></i> Onboarded new team members effectively</li>
+                <li><i class="bi bi-check"></i> Fostered collaborative engineering culture</li>
+              </ul>
             </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">React.js <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Design Patterns <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Microsoft Azure Services <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="leadership-card">
+              <div class="leadership-icon">
+                <i class="bi bi-code-review"></i>
               </div>
+              <h4>Technical Excellence</h4>
+              <ul class="leadership-list">
+                <li><i class="bi bi-check"></i> Reviewed HLD/LLD and pull requests</li>
+                <li><i class="bi bi-check"></i> Guided API design and architecture decisions</li>
+                <li><i class="bi bi-check"></i> Mentored junior developers & code reviews</li>
+                <li><i class="bi bi-check"></i> Improved code quality & test coverage</li>
+              </ul>
             </div>
-
-            <div class="progress">
-              <span class="skill">Amazon Web Services <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MySql <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">DevOps Technologies<i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
           </div>
 
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="leadership-card">
+              <div class="leadership-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <h4>Delivery & Alignment</h4>
+              <ul class="leadership-list">
+                <li><i class="bi bi-check"></i> Drove delivery alignment across squads</li>
+                <li><i class="bi bi-check"></i> Managed sprint planning & retrospectives</li>
+                <li><i class="bi bi-check"></i> Communicated progress to stakeholders</li>
+                <li><i class="bi bi-check"></i> Owned feature delivery end-to-end</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="leadership-card">
+              <div class="leadership-icon">
+                <i class="bi bi-exclamation-triangle"></i>
+              </div>
+              <h4>Production & Stability</h4>
+              <ul class="leadership-list">
+                <li><i class="bi bi-check"></i> Led incident triage & response</li>
+                <li><i class="bi bi-check"></i> Performed root cause analysis (RCA)</li>
+                <li><i class="bi bi-check"></i> Improved logging, monitoring & alerting</li>
+                <li><i class="bi bi-check"></i> Strengthened release governance</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section><!-- End Leadership Section -->
+
+    <!-- ======= Case Studies Section ======= -->
+    <section id="case-studies" class="case-studies section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Enterprise Case Studies</h2>
+          <p>Real-world examples of impact and technical excellence</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="case-study-card">
+              <div class="case-study-header">
+                <i class="bi bi-diagram-3"></i>
+                <h4>API Modernization & Microservices Ownership</h4>
+              </div>
+              <div class="case-study-content">
+                <p><strong>Challenge:</strong> Monolithic system limiting scalability and team velocity</p>
+                <ul class="case-study-list">
+                  <li><i class="bi bi-check"></i> Owned and maintained 10+ production microservices</li>
+                  <li><i class="bi bi-check"></i> Implemented comprehensive API versioning strategy</li>
+                  <li><i class="bi bi-check"></i> Enhanced backward compatibility & contract testing</li>
+                  <li><i class="bi bi-check"></i> Strengthened authentication (OAuth2.0, OPA, JWT)</li>
+                  <li><i class="bi bi-check"></i> Reduced production incidents by 40%</li>
+                  <li><i class="bi bi-check"></i> Improved API response times and reliability</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="case-study-card">
+              <div class="case-study-header">
+                <i class="bi bi-shield-lock"></i>
+                <h4>Secure Financial Integration (Interac)</h4>
+              </div>
+              <div class="case-study-content">
+                <p><strong>Challenge:</strong> Integrate secure, compliant financial APIs with production systems</p>
+                <ul class="case-study-list">
+                  <li><i class="bi bi-check"></i> Designed secure Interac API integration flows</li>
+                  <li><i class="bi bi-check"></i> Ensured PCI/DSS and regulatory compliance</li>
+                  <li><i class="bi bi-check"></i> Built comprehensive test coverage (unit, integration, E2E)</li>
+                  <li><i class="bi bi-check"></i> Managed production rollout with zero downtime</li>
+                  <li><i class="bi bi-check"></i> Established monitoring and alerting for financial flows</li>
+                  <li><i class="bi bi-check"></i> Documented security best practices for team</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="case-study-card">
+              <div class="case-study-header">
+                <i class="bi bi-graph-up"></i>
+                <h4>Production Stability & Incident Management</h4>
+              </div>
+              <div class="case-study-content">
+                <p><strong>Challenge:</strong> Reduce incidents and improve platform reliability</p>
+                <ul class="case-study-list">
+                  <li><i class="bi bi-check"></i> Led incident triage and response processes</li>
+                  <li><i class="bi bi-check"></i> Performed root cause analysis (RCA) on critical issues</li>
+                  <li><i class="bi bi-check"></i> Enhanced logging, monitoring, and alerting (Splunk, Prometheus, Grafana)</li>
+                  <li><i class="bi bi-check"></i> Strengthened release governance and testing</li>
+                  <li><i class="bi bi-check"></i> Reduced MTTR (Mean Time To Recovery) by 35%</li>
+                  <li><i class="bi bi-check"></i> Mentored team on production best practices</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="case-study-card">
+              <div class="case-study-header">
+                <i class="bi bi-kubernetes"></i>
+                <h4>Cloud-Native Architecture & DevOps</h4>
+              </div>
+              <div class="case-study-content">
+                <p><strong>Challenge:</strong> Modernize infrastructure for scalability and faster deployments</p>
+                <ul class="case-study-list">
+                  <li><i class="bi bi-check"></i> Migrated applications to Kubernetes/OpenShift</li>
+                  <li><i class="bi bi-check"></i> Containerized legacy services (Docker)</li>
+                  <li><i class="bi bi-check"></i> Implemented CI/CD pipelines (Jenkins, GitFlow)</li>
+                  <li><i class="bi bi-check"></i> Reduced deployment time from days to hours</li>
+                  <li><i class="bi bi-check"></i> Established DevSecOps practices</li>
+                  <li><i class="bi bi-check"></i> Managed multi-cloud deployments (AWS, Azure)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Case Studies Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
@@ -268,7 +404,7 @@
                 Creative Software Developer with over eight years of experience creating user-focused web applications, utilizing innovative methods and meeting deadlines for high-quality final products.
               </em></p>
               <ul>
-                <li>2 Gully Drive, Scarborough, Ontario</li>
+                <li>Oshawa, Ontario, Canada</li>
                 <li>+1 (437) 987-8669</li>
                 <li>shiva.bhalla@gmail.com</li>
               </ul>
@@ -279,31 +415,32 @@
               <h4>Post Graduation Diploma &amp; Software Engineering Technology</h4>
               <h5>2018 - 2019</h5>
               <p><em>Centennial College, Scarborough, Ontario, Canada</em></p>
-              <p>Expertise in object-oriented software design methodologies, user-oriented interface design, software testing and quality assurance, and a wide range of programming languages and tools including Java, Java EE, MS-SQL Server, UNIX/Linux, Microsoft's .NET Core, HTML5/CSS/JavaScript/Angular/React, mobile application development, cloud computing, machine learning</p>
+              <p>Focused on advanced object-oriented design, enterprise application development, user-centric interface design, software testing, and quality assurance. Gained hands-on experience with a broad range of technologies including Java, Java EE, MS-SQL Server, UNIX/Linux, and Microsoft .NET Core, alongside modern web technologies such as HTML5, CSS, JavaScript, Angular, and React. Coursework also covered mobile application development, cloud computing fundamentals, and introductory machine learning concepts.</p>
+              <p>Additionally, the program provided a strong foundation that supports my current professional expertise in modern backend engineering, including microservices architecture, REST API design, Spring Boot, distributed systems, containerization (Docker/Kubernetes), CI/CD pipelines, cloud-native development, and secure authentication and authorization patterns (OAuth2.0, JWT).</p>
             </div>
             <div class="resume-item">
               <h4>Bachelor of Technology &amp; Computer Science Engineering</h4>
               <h5>2010 - 2014</h5>
               <p><em>CT Institute of Technology, Shahpur, Punjab, India</em></p>
-              <p>Focuses on practical and theoretical knowledge of computer hardware and advanced software</p>
+              <p>Built strong fundamentals in Java, OOP, data structures, algorithms, SQL, operating systems, and web technologies. This academic foundation directly supports my current work in backend engineering, microservices, REST APIs, cloud-native development, and enterprise software architecture.</p>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior Application Developer</h4>
+              <h4>Consultant Application Developer</h4>
               <h5>2019 - Present</h5>
-              <p><em>Canadian Imperial Bank of Commerce, Toronto, Ontario, Canada</em></p>
+              <p><em>Canadian Imperial Bank of Commerce, Oshawa, Ontario, Canada</em></p>
               <ul>
-                <li>Develop RESTful & SOAP web services for new requirements</li>
-                <li>Prepare detailed design documents for the projects</li>
-                <li>Integrate, build and test projects using DevOps technologies</li>
-                <li>Extensive involvement in project planning and requirement gathering</li>
-                <li>Address day to day technical issues on different environments (Release, UAT, PROD)</li>
-                <li>Understand the business requirement and functional specification for the project</li>
-                <li>Involvement in migrating the entire product to Cloud platform</li>
-                <li>Mentor junior team members</li>
-                <li>Support and Advice QA team testing in various environments</li>
+                <li>Architected scalable, secure APIs and microservices for digital banking platforms, owning the full API lifecycle from design and versioning to documentation and backward compatibility.</li>
+                <li>Enforced secure authentication and authorization using Spring Security, OAuth2.0, and OPA while integrating third-party services including Interac.</li>
+                <li>Mentored developers and led structured onboarding programs, improving team capability and reducing ramp-up time across multiple squads.</li>
+                <li>Collaborated closely with Product Owners, BSAs, QA, DevOps, and Release teams to drive Agile delivery and CI/CD/DevSecOps practices.</li>
+                <li>Led production incident triage, root-cause analysis, and release readiness across DEV, UAT, and PROD environments.</li>
+                <li>Conducted technical interviews and supported hiring decisions with strong judgment in evaluating talent and team fit.</li>
+                <li>Established PR governance and code review standards to improve code quality consistency and reduce defects across squads.</li>
+                <li>Championed technical excellence through modern engineering practices, secure coding standards, and consistent API design patterns.</li>
+                <li>Contributed to HLD and LLD documentation to improve knowledge transfer and reduce dependency on tribal knowledge.</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -311,13 +448,11 @@
               <h5>2014 - 2017</h5>
               <p><em>Franconnect India Software Pvt. Ltd. - Noida, Uttar Pradesh, India</em></p>
               <ul>
-                <li>Analyzed and customized code based on client requirements</li>
-                <li>Implemented and enhanced new features to the product</li>
-                <li>Managed client's requirements and develop those in base product with efficiency</li>
-                <li>Migrated clients to SaaS platform</li>
-                <li>Integrated and consumed many third party APIs in product </li>
-                <li>Two times recognized for productivity and efficiency in town hall meetings</li>
-                <li>Effective communication with clients to understand their requirements and proposed best solution</li>
+                <li>Developed enterprise applications using Java 7/8, JSP/Servlets, Struts, and Spring MVC.</li>
+                <li>Built RESTful services and integrated backend systems with UI components.</li>
+                <li>Optimized SQL queries and improved database performance.</li>
+                <li>Implemented SOAP services using JAX-WS for enterprise integrations.</li>
+                <li>Participated in requirement gathering, system analysis, and design discussions with senior stakeholders.</li>
               </ul>
             </div>
           </div>
@@ -326,322 +461,127 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Portfolio Section ======= 
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- ======= Projects Section ======= -->
+    <section id="projects" class="projects section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> End Portfolio Section -->
-
-    <!-- ======= Services Section ======= 
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Featured Projects</h2>
+          <p>Backend and cloud-native projects demonstrating technical expertise</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          <div class="col-lg-6 col-md-6" data-aos="fade-up">
+            <div class="project-card">
+              <div class="project-icon">
+                <i class="bi bi-diagram-3-fill"></i>
+              </div>
+              <h4>Microservice Example: User Service</h4>
+              <p><strong>Technologies:</strong> Java, Spring Boot, Spring Cloud, REST APIs, PostgreSQL, Docker, Kubernetes</p>
+              <p>A production-ready microservice example demonstrating best practices in API design, authentication (OAuth2.0), data persistence, containerization, and cloud deployment.</p>
+              <div class="project-links">
+                <a href="https://github.com/bhalla1993" target="_blank" class="project-link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card">
+              <div class="project-icon">
+                <i class="bi bi-api"></i>
+              </div>
+              <h4>API Versioning & Contract Testing</h4>
+              <p><strong>Technologies:</strong> Spring Boot, REST Assured, JUnit, Mockito, Contract Testing, API Documentation</p>
+              <p>Demonstrates comprehensive API lifecycle management including versioning strategies, backward compatibility, automated testing (unit & integration), and OpenAPI documentation.</p>
+              <div class="project-links">
+                <a href="https://github.com/bhalla1993" target="_blank" class="project-link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card">
+              <div class="project-icon">
+                <i class="bi bi-docker"></i>
+              </div>
+              <h4>Cloud Deployment: Docker & Kubernetes</h4>
+              <p><strong>Technologies:</strong> Docker, Kubernetes, Helm, Cloud Platforms (AWS/Azure), CI/CD</p>
+              <p>Example showcasing containerization of applications, Kubernetes orchestration, service scaling, networking, storage, and best practices for cloud-native deployments.</p>
+              <div class="project-links">
+                <a href="https://github.com/bhalla1993" target="_blank" class="project-link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-card">
+              <div class="project-icon">
+                <i class="bi bi-gear"></i>
+              </div>
+              <h4>CI/CD Pipeline: Jenkins & GitFlow</h4>
+              <p><strong>Technologies:</strong> Jenkins, Git/GitHub, GitFlow, Automated Testing, Artifact Management</p>
+              <p>Complete CI/CD pipeline demonstrating automated build, test, and deployment workflows. Includes branching strategy (GitFlow), code quality checks, and production deployment automation.</p>
+              <div class="project-links">
+                <a href="https://github.com/bhalla1993" target="_blank" class="project-link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
-    </section> End Services Section -->
-
-    <!-- ======= Testimonials Section =======
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div> 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div> 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div>
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>
-    
-    End Testimonials Section -->
+    </section><!-- End Projects Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Want to get in touch? Let's connect!</p>
+          <h2>Contact & Connect</h2>
+          <p>Let's collaborate! Reach out via email or connect on LinkedIn and GitHub</p>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="row g-4 contact-cards" data-aos="fade-in">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>2 Gully Dr, Scarborough, Ontario, Canada, M1K 4W2</p>
-              </div>
-
-              <div class="email">
+          <div class="col-12 col-md-4 d-flex">
+            <div class="contact-box">
+              <div class="contact-icon">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>shiva.bhalla@gmail.com</p>
               </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Cell:</h4>
-                <p>+1 (437) 987-8669</p>
-              </div>
-
-             <!-- <iframe src="https://maps.app.goo.gl/L5tnyi9Vrk5h1t7d9" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>-->
+              <h4>Email</h4>
+              <p><a href="mailto:shiva.bhalla@gmail.com">shiva.bhalla@gmail.com</a></p>
+            </div>
           </div>
 
+          <div class="col-12 col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-box">
+              <div class="contact-icon">
+                <i class="bi bi-linkedin"></i>
+              </div>
+              <h4>LinkedIn</h4>
+              <p><a href="https://www.linkedin.com/in/shiva-bhalla-1b3253102" target="_blank">Shiva Bhalla</a></p>
+            </div>
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-           <!-- <form method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
+          <div class="col-12 col-md-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-box">
+              <div class="contact-icon">
+                <i class="bi bi-github"></i>
               </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form> -->
-
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzg28O9-mtTu18nKonkL0jSK3i8z535VSrhK7yfDBOOWbTrQ/viewform?embedded=true" width="640" height="855" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+              <h4>GitHub</h4>
+              <p><a href="https://github.com/bhalla1993" target="_blank">bhalla1993</a></p>
+            </div>
           </div>
 
+        </div>
+
+        <!-- Google Form -->
+        <div class="row mt-5" data-aos="fade-up">
+          <div class="col-lg-12">
+            <h4 class="text-center mb-4">Send me a Message</h4>
+            <div class="contact-form-container">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzg28O9-mtTu18nKonkL0jSK3i8z535VSrhK7yfDBOOWbTrQ/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+          </div>
         </div>
 
       </div>
