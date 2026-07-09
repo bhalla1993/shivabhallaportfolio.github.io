@@ -103,10 +103,22 @@
   /**
    * Mobile nav toggle
    */
+  const header = select('#header')
+  const mobileNavToggle = select('.mobile-nav-toggle')
+
+  const setMobileNavState = (isOpen) => {
+    if (!header || !mobileNavToggle) return
+
+    header.classList.toggle('header-show', isOpen)
+    mobileNavToggle.classList.toggle('bi-list', !isOpen)
+    mobileNavToggle.classList.toggle('bi-x', isOpen)
+    document.body.classList.toggle('mobile-nav-active', isOpen)
+  }
+
   on('click', '.mobile-nav-toggle', function(e) {
-    select('#header').classList.toggle('header-show')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
+    e.preventDefault()
+    if (!header) return
+    setMobileNavState(!header.classList.contains('header-show'))
   })
 
   /**
@@ -118,14 +130,17 @@
 
       let header = select('#header')
       if (header && header.classList.contains('header-show')) {
-        header.classList.remove('header-show')
-        let navbarToggle = select('.mobile-nav-toggle')
-        navbarToggle.classList.toggle('bi-list')
-        navbarToggle.classList.toggle('bi-x')
+        setMobileNavState(false)
       }
       scrollto(this.hash)
     }
   }, true)
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      setMobileNavState(false)
+    }
+  })
 
   /**
    * Scroll with offset on page load with hash links in the url
